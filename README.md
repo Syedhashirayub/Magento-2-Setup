@@ -1,12 +1,10 @@
-# Magento-2-Setup
-
-# ✅ Magento 2 Setup Assignment Submission
+# ✅ Magento 2 Setup 
 
 ## 🔧 Server Details
 - **Provider:** AWS EC2
 - **OS:** Debian GNU/Linux 12 (bookworm)
 - **Kernel:** 6.1.0-32-cloud-amd64
-- **Public IP:** `YOUR_PUBLIC_IP_HERE`
+- **Public IP:** `18.234.101.239`
 
 ## 🌐 Domains Configured
 - ✅ Magento: https://test.mgt.com
@@ -51,13 +49,18 @@
 - `/etc/php/8.3/fpm/pool.d/test-ssh.conf`
 - `/etc/varnish/default.vcl`
 - `/etc/hosts`
-- `env.php` (passwords redacted)
 
 ---
 
 ## 📸 Screenshots / Logs
 - Magento Homepage (✅ working)
+  
+  ![Screenshot 2025-07-09 at 11 15 30 AM](https://github.com/user-attachments/assets/d761af86-8fab-4de2-8de3-7d9e5a469220)
+
 - phpMyAdmin Login Page (✅ working)
+  
+  ![Screenshot 2025-07-09 at 12 45 09 PM](https://github.com/user-attachments/assets/a1ac0606-89df-45c9-bacc-01d13d4c3f41)
+
 - `curl -I` response for both domains showing `200 OK`
 - `systemctl status` for Redis, PHP-FPM, MySQL, Elasticsearch
 - `openssl x509 -in <crt> -noout -dates` (to confirm cert validity)
